@@ -1,13 +1,20 @@
 # Stormland Compatibility Files
 
-These files are pre-built binaries from the Revive 3.2.1 release, provided here for convenience.
+These files are provided here for convenience to run Stormland with this version of Revive.
+
+## Files
+
+| File | Description |
+|------|-------------|
+| `LibRevive64.dll` | Revive runtime library (Oculus → OpenVR translation) |
+| `openvr_api64.dll` | OpenVR API library |
+| `xinput1_3.dll` | Controller input hook |
+| `xinput9_1_0.dll` | Controller input hook (alternate) |
+| `GammonConfig.ini` | Oculus identity spoofing configuration |
 
 ## Usage
 
-Copy both files into your Stormland game folder (the same directory as `Stormland.exe`):
-
-- `LibRevive64.dll`
-- `openvr_api64.dll`
+Copy **all** files into your Stormland game folder (the same directory as `Stormland.exe`).
 
 > **Note:** The standard Revive injection method (launching via the Revive Dashboard or right-click → Inject) does not work reliably with Stormland.
 

@@ -1,3 +1,21 @@
+> [!WARNING]
+> ## Stormland-Specific Notice
+>
+> This release includes pre-built files for **Stormland** located in [`extras/Stormland/`](extras/Stormland/). To run the game, copy **all** of the following files into the same folder as `Stormland.exe`:
+>
+> - `LibRevive64.dll`
+> - `openvr_api64.dll`
+> - `xinput1_3.dll`
+> - `xinput9_1_0.dll`
+> - `GammonConfig.ini`
+>
+> **Important notes from testing:**
+> - The standard Revive injection method (dashboard or right-click → Inject) does **not** work reliably with Stormland.
+> - The game **must be started with administrative privileges** or it **will not save** progress.
+> - This update showed noticeably better 1% lows and fewer "hangs" compared to older Revive versions, but Stormland still suffers from poor overall performance even on high-end hardware.
+> - The best workaround found so far is **reducing the SteamVR render resolution**.
+> - This specific Revive version was **only tested with Stormland** and is not guaranteed to work with other games.
+
 # Revive Compatibility Layer
 
 This is a compatibility layer between the Oculus SDK and OpenVR/OpenXR. It allows you to play Oculus-exclusive games on your HTC Vive or Valve Index.
@@ -23,6 +41,9 @@ For Stormland to work correctly with this version of Revive, the following files
 
 - `LibRevive64.dll`
 - `openvr_api64.dll`
+- `xinput1_3.dll`
+- `xinput9_1_0.dll`
+- `GammonConfig.ini`
 
 Pre-built copies of these files are available in the repository at [`extras/Stormland/`](extras/Stormland/).
 
