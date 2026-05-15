@@ -36,27 +36,6 @@ This is a compatibility layer between the Oculus SDK and OpenVR/OpenXR. It allow
 5. Put on the headset, open the dashboard and click the new Revive tab.
 6. If you run into any problems, read the known issues below or refer to the [wiki](https://github.com/LibreVR/Revive/wiki).
 
-## Game-Specific Notes
-
-### Stormland
-
-For Stormland to work correctly with this version of Revive, the following files **must be copied into the game's folder** (the same directory as `Stormland.exe`):
-
-- `LibRevive64.dll`
-- `openvr_api64.dll`
-
-If the game still does not run, also try copying these additional files:
-
-- `xinput1_3.dll`
-- `xinput9_1_0.dll`
-- `GammonConfig.ini`
-
-Pre-built copies of these files are available in the repository at [`extras/Stormland/`](extras/Stormland/).
-
-> **Note:** The standard Revive injection method (launching via the Revive Dashboard or right-click → Inject) does not work reliably with Stormland in our testing.
-
-> **Important:** The game may fail to save progress if it is not started with **administrative privileges**.
-
 ## Known Issues
 
 - Newly installed applications may refuse to start when you try to launch them for the first time, [simply follow these instructions to fix it](https://github.com/LibreVR/Revive/wiki/Troubleshooting#im-getting-an-entitlement-error-or-oculus-rift-not-found) or reboot your PC.
