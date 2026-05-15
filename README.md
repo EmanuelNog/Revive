@@ -19,10 +19,12 @@ This is a compatibility layer between the Oculus SDK and OpenVR/OpenXR. It allow
 
 ### Stormland
 
-For Stormland to work correctly with this version of Revive, the following files from the Revive installation **must be copied into the game's folder** (the same directory as `Stormland.exe`):
+For Stormland to work correctly with this version of Revive, the following files **must be copied into the game's folder** (the same directory as `Stormland.exe`):
 
 - `LibRevive64.dll`
 - `openvr_api64.dll`
+
+Pre-built copies of these files are available in the repository at [`extras/Stormland/`](extras/Stormland/).
 
 > **Note:** The standard Revive injection method (launching via the Revive Dashboard or right-click → Inject) does not work reliably with Stormland in our testing.
 
