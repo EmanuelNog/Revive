@@ -1,10 +1,13 @@
 > [!WARNING]
 > ## Stormland-Specific Notice
 >
-> This release includes pre-built files for **Stormland** located in [`extras/Stormland/`](extras/Stormland/). To run the game, copy **all** of the following files into the same folder as `Stormland.exe`:
+> This release includes pre-built files for **Stormland** located in [`extras/Stormland/`](extras/Stormland/).
 >
+> **Required files** — copy these into the same folder as `Stormland.exe`:
 > - `LibRevive64.dll`
 > - `openvr_api64.dll`
+>
+> **If the game still does not run**, also copy these additional files (they were necessary in some setups):
 > - `xinput1_3.dll`
 > - `xinput9_1_0.dll`
 > - `GammonConfig.ini`
@@ -41,6 +44,9 @@ For Stormland to work correctly with this version of Revive, the following files
 
 - `LibRevive64.dll`
 - `openvr_api64.dll`
+
+If the game still does not run, also try copying these additional files:
+
 - `xinput1_3.dll`
 - `xinput9_1_0.dll`
 - `GammonConfig.ini`
